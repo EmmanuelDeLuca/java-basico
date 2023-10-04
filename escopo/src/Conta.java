@@ -5,6 +5,7 @@ public class Conta {
     public void sacar( double valor) {
         // Variável local de método
         double novoValor = saldo - valor;
+        System.out.println(novoValor);
     }
 
     public void imprimirSaldo() {
